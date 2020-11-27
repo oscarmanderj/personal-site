@@ -1,14 +1,10 @@
 <template>
   <div class="flex flex-wrap">
-    <nuxt-link
+    <ArticleCard
       v-for="(article, index) in articles"
       :key="index"
-      class="p-5 border rounded w-full my-4 hover:bg-gray-100"
-      :to="article.path"
-    >
-      <h2>{{ article.title }}</h2>
-      <p>{{ article.description }}</p>
-    </nuxt-link>
+      :article="article"
+    />
   </div>
 </template>
 

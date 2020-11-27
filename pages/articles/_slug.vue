@@ -1,7 +1,7 @@
 <template>
-  <div class="prose">
+  <div class="prose my-20">
     <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
+    <p class="text-xl">{{ page.description }}</p>
     <nuxt-content :document="page" />
   </div>
 </template>

@@ -1,11 +1,15 @@
+import getSiteMeta from './utils/getSiteMeta'
+
+const meta = getSiteMeta()
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'personal-blog',
+    title: 'Oscar',
     meta: [
+      ...meta,
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
@@ -43,7 +47,9 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
-
+  router: {
+    linkExactActiveClass: 'text-white bg-gray-900',
+  },
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
 

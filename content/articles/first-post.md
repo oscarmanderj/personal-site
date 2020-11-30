@@ -1,7 +1,7 @@
 ---
 title: Post 0.0.1
-description: 'Finally. I have decided to start writing down the nonsense in my head.
-'
+description: 'Finally. I have decided to start writing down the nonsense in my head.'
+categories: ['news', 'dev']
 image: https://images.prismic.io/bareblends/6bf7d75a-05cb-4103-9688-d01914ff45cc_bare-mushies.jpg
 ---
 
@@ -14,7 +14,7 @@ Hopefully some of my thoughts are portrayed elegantly enough you are able to sta
 
 This is mostly for the programming nerds, so if you are not interested in programming then this is probably not your cup of tea.
 
-What better way to experiment with new tech than on a personal site! And golly does the web move fast.
+What better way to experiment with new tech than on a personal site!
 
 ### The site is:
 tldr; Nuxt + Nuxt Content + Tailwind + Netlify

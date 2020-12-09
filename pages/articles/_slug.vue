@@ -1,8 +1,23 @@
 <template>
-  <div class="prose my-20">
+  <div class="prose my-8 sm:my-20 p-4">
+    <Chip
+      v-for="(category, index) in article.categories"
+      :key="index"
+      :title="category"
+      :destination="'/articles/categories/' + category"
+    />
+    <hr />
+    <span class="text-gray-500">{{ article.createdAt | prettyDate }}</span>
     <h1>{{ article.title }}</h1>
     <p class="text-xl">{{ article.description }}</p>
     <nuxt-content :document="article" />
+    <hr />
+    <Chip
+      v-for="(tag, index) in article.tags"
+      :key="index"
+      :title="tag"
+      :destination="'/articles/tags/' + tag"
+    />
   </div>
 </template>
 

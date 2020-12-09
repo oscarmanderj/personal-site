@@ -1,5 +1,5 @@
 const type = 'website'
-const url = 'https://bobross.com'
+const url = 'https://oscar.io'
 const title = 'Oscars personal site'
 const description = 'Trials and tribulations of a humanoid'
 const mainImage = '/a-lovely-image.png'

@@ -28,18 +28,6 @@
 </template>
 <script>
 export default {
-  filters: {
-    prettyDate(date) {
-      const newDate = new Date(date)
-      const dateFormat = {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      }
-      return newDate.toLocaleDateString('en-GB', dateFormat)
-    },
-  },
   props: {
     article: {
       type: Object,

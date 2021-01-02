@@ -1,7 +1,9 @@
 <template>
-  <nuxt-link :to="destination" class="bg-gray-200 px-3 py-2 rounded-xl m-1">{{
-    title
-  }}</nuxt-link>
+  <nuxt-link
+    :to="destination"
+    class="bg-gray-200 px-3 py-2 rounded-xl m-1 hover:bg-gray-300"
+    >{{ title }}</nuxt-link
+  >
 </template>
 <script>
 export default {

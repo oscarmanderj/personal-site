@@ -18,6 +18,7 @@
       :title="tag"
       :destination="'/articles/tags/' + tag"
     />
+    <prev-next :prev="prev" :next="next" />
   </div>
 </template>
 
@@ -28,8 +29,16 @@ export default {
     const slug = params.slug || 'index'
     const article = await $content('articles', slug).fetch()
 
+    const [prev, next] = await $content('articles')
+      .only(['title', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .surround(params.slug)
+      .fetch()
+
     return {
       article,
+      prev,
+      next,
     }
   },
   computed: {

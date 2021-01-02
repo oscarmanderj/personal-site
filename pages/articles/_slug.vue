@@ -17,7 +17,7 @@
     <hr />
     <span class="text-gray-500">{{ article.createdAt | prettyDate }}</span>
     <h1>{{ article.title }}</h1>
-    <p class="text-xl">{{ article.description }}</p>
+    <p>{{ article.description }}</p>
     <nuxt-content :document="article" />
     <hr />
     <Chip
@@ -91,7 +91,7 @@ export default {
         {
           hid: 'canonical',
           rel: 'canonical',
-          href: `https://bobross.com/articles/${this.$route.params.slug}`,
+          href: `https://manderjones.io/articles/${this.$route.params.slug}`,
         },
       ],
     }

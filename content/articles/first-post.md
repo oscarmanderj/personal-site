@@ -43,9 +43,10 @@ The beautiful thing about Nuxt is it's community. There are amazing modules you 
 If you are new to Vuejs then I would suggest starting by learning the basics of Vuejs first. Then dive into Nuxt headfirst and build your first static site. Simply run the following and you have a bootstrapped project ready to go.
 
 
-  ```bash
-    yarn create nuxt-app <project-name>
-  ```
+
+```bash
+  yarn create nuxt-app <project-name>
+```
 
 
 <a href="https://content.nuxtjs.org/">Nuxt Content</a>
@@ -82,9 +83,9 @@ This is where tailwind shines. You don't write any custom css. Every css class y
 #### Example button
 
 
-  ```html
-  <a href="#" class="px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-purple-800 uppercase bg-purple-200 hover:shadow-lg hover:-translate-y-2 transform duration-150">button</a>
-  ```
+```html
+<a href="#" class="px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-purple-800 uppercase bg-purple-200 hover:shadow-lg hover:-translate-y-2 transform duration-150">button</a>
+```
 
 
 

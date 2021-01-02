@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen mx-auto">
+  <div class="mx-auto">
     <NavBar />
     <Nuxt class="mx-auto mb-auto" />
     <FooterNav />

@@ -1,5 +1,10 @@
 <template>
-  <div class="prose my-8 sm:my-20 p-4">
+  <div class="prose my-8 sm:my-20 p-4 prose-indigo">
+    <img
+      class="w-auto h-auto rounded-2xl shadow-md"
+      :src="article.image.src"
+      :alt="article.image.alt"
+    />
     <Chip
       v-for="(category, index) in article.categories"
       :key="index"

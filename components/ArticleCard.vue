@@ -4,7 +4,11 @@
       class="group shadow hover:shadow-2xl rounded-lg m-4 hover:bg-gray-400 transform duration-150 transition-all hover:-translate-y-3 text-gray-700"
     >
       <nuxt-link :to="article.path">
-        <img :src="article.image" alt="" class="rounded-t-lg" />
+        <img
+          :src="article.image.src"
+          :alt="article.image.alt"
+          class="rounded-t-lg"
+        />
         <div class="p-5">
           <span
             v-for="(category, index) in article.categories"

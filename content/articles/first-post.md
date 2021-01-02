@@ -3,12 +3,10 @@ title: Post 0.0.1
 description: 'Finally. I have decided to start writing down the nonsense in my head.'
 categories: ['news', 'dev']
 tags: ['nuxt', 'tailwind', 'SEO', 'netlify']
-image: https://images.prismic.io/bareblends/6bf7d75a-05cb-4103-9688-d01914ff45cc_bare-mushies.jpg
+image: { src: https://images.prismic.io/bareblends/6bf7d75a-05cb-4103-9688-d01914ff45cc_bare-mushies.jpg, alt: "mushrooms"}
 ---
 
 This site will be a ongoing digital journal of everything I find interesting in the universe. From my trials and tribulations of building <a href="https://bareblends.com.au">Bare Blends</a> with <a href="https://github.com/razza12">razza</a>, to my random programming adventures, to my strange obsession with SpaceX, to my thoughts on the meta of the world.
-
-Hopefully some of my thoughts are portrayed elegantly enough you are able to stay engaged.
 
 ## Starting with how this site is made...
 

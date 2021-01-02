@@ -73,7 +73,7 @@ Other features (pulled straight from <a href="https://content.nuxtjs.org/">Nuxt 
 <ul>
 <hr>
 
-# Tailwind & Tailwind Typography
+## Tailwind & Tailwind Typography
 <a href="https://v1.tailwindcss.com/">Tailwind</a>
 
 
@@ -84,15 +84,13 @@ I fooled around with bootstrap for years and I loved it. However, at the end of 
 This is where tailwind shines. You don't write any custom css. Every css class you can think of is already in the framework, so you simple craft away at your components by adding 1-20 classes per html element. This sounds like a lot, but once you learn they classes, you can whip up pages faster than any other method.
 
 #### Example button
-<code-group>
-  <code-block label="Yarn" active>
+
 
   ```html
   <a href="#" class="px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-purple-800 uppercase bg-purple-200 hover:shadow-lg hover:-translate-y-2 transform duration-150">button</a>
   ```
 
-  </code-block>
-</code-group>
+
 
 <a href="#" class="px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-purple-800 uppercase bg-purple-200 hover:shadow-lg hover:-translate-y-2 transform duration-150">Epic button</a>
 
@@ -103,8 +101,6 @@ Combine this with the component structure of a nuxtjs or nextjs project and you 
 
 Tailwind typography is your answer to perfectly formated blogs. Optimised for reading without any custom css. Simply add the class 'prose' to your high level element and everything within it will be perfectly formatted for reading. Below is the complete structure of this page. Simple right?
 
-<code-group>
-  <code-block label="Yarn" active>
 
   ```html
   <template>
@@ -115,9 +111,6 @@ Tailwind typography is your answer to perfectly formated blogs. Optimised for re
     </div>
   </template>
   ```
-
-  </code-block>
-</code-group>
 
 <hr>
 

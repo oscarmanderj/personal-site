@@ -1,10 +1,13 @@
 <template>
-  <div class="prose my-8 sm:my-20 p-4 prose-indigo">
+  <div
+    class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto prose-indigo my-8 sm:my-20 p-4"
+  >
     <img
       class="w-auto h-auto rounded-2xl shadow-md"
       :src="article.image.src"
       :alt="article.image.alt"
     />
+
     <Chip
       v-for="(category, index) in article.categories"
       :key="index"
@@ -23,6 +26,7 @@
       :title="tag"
       :destination="'/articles/tags/' + tag"
     />
+
     <prev-next :prev="prev" :next="next" />
   </div>
 </template>

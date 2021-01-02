@@ -42,15 +42,11 @@ The beautiful thing about Nuxt is it's community. There are amazing modules you 
 
 If you are new to Vuejs then I would suggest starting by learning the basics of Vuejs first. Then dive into Nuxt headfirst and build your first static site. Simply run the following and you have a bootstrapped project ready to go.
 
-<code-group>
-  <code-block label="Yarn" active>
 
   ```bash
     yarn create nuxt-app <project-name>
   ```
 
-  </code-block>
-</code-group>
 
 <a href="https://content.nuxtjs.org/">Nuxt Content</a>
 

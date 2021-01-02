@@ -115,15 +115,23 @@ Tailwind typography is your answer to perfectly formatted blogs. Optimised for r
 # Netlify
 
 <a href="https://www.netlify.com/">Netlify</a>
-Netlify is the perfect hosting solution for static sites and it has been on a tear for a few years now. Forget managing servers and complicated environments, just connect and forget!
+Netlify is the perfect hosting solution for static sites and it has been on a roll for a few years now. Forget managing servers and complicated environments, just connect and forget!
 
-The first time I discovered Netlify, my developer life changed forever. I now host almost all my sites on it. And the best part is that it is free! Well, if you just want to do simple sites that is. I am currently hosting about 12 sites saving $100's a year.
+The first time I discovered Netlify, my developer life changed forever. I now host almost all my sites on it. And the best part is that it is free! Well, if you just want to do JAMStack sites that is. I am currently hosting about 12 sites saving $100's a year.
 
-Hosting a site is as simple as connecting up your github repo and clicking deploy. After that is done, you can choose to have your site built on every commit.
+Hosting a site is as simple as connecting up your github repo and clicking deploy. After that is done, you can choose to have your site built on every commit. 
 
-# Performance of the stack
-
-I'll admit, there is not much on this site so of course it is going to be fast, but still...
+No doubt in my mind that the future of the web will be built on platforms like netlify and vercel.
 
 
 
+# Future improvements
+
+Every service/feature that I add to this has to be free forever, that is the only requirement.
+
+<ul>
+<li>Static comments</li>
+<li>Stripe/crypto subscription service</li>
+<li>User accounts</li>
+<li>Shareability</li>
+<ul>

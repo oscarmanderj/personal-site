@@ -1,14 +1,14 @@
 <template>
   <section class="container mx-auto">
-    <div class="text-center h-screen flex">
+    <div class="text-center flex">
       <div class="self-center mx-auto">
-        <h1>👋 welcome to my thoughts</h1>
+        <h1>👋 Welcome!</h1>
         <p class="text-2xl">Peruse at your pleasure</p>
       </div>
     </div>
     <div class="flex flex-wrap">
-      <div class="w-full">
-        <h3 class="text-4xl">Posts</h3>
+      <div class="w-full px-8">
+        <h3 class="text-4xl font-semibold">Thoughts</h3>
       </div>
       <ArticleCard
         v-for="(article, index) in articles"

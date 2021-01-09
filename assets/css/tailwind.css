@@ -1,19 +1,26 @@
 @import 'tailwindcss/base'; 
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
-
 h1{
-    @apply text-2xl font-semibold;
+    @apply text-2xl;
 
 }
+h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+    }
+
+    body {
+        @apply font-body; 
+    }
 h2 {
     @apply text-xl;
 }
 h3 {
     @apply text-lg;
 }
+
 
 @screen sm {
     h1{

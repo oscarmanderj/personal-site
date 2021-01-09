@@ -16,7 +16,7 @@
             class="px-2 py-1 rounded-lg bg-gray-200 group-hover:text-black shadow-sm mr-2"
             >{{ category }}</span
           >
-          <h2 class="font-semibold leading-tight my-3 group-hover:text-white">
+          <h2 class="leading-tight my-3 group-hover:text-white">
             {{ article.title }}
           </h2>
           <p class="mb-2 text-lg group-hover:text-white">

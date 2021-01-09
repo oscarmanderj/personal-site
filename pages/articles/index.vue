@@ -1,5 +1,5 @@
 <template>
-  <section class="container sm:mt-20">
+  <section class="container">
     <div class="mb-8 text-center">
       <h1>Articles</h1>
       <p class="text-2xl">

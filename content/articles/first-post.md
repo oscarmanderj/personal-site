@@ -6,7 +6,9 @@ tags: ['nuxt', 'tailwind', 'SEO', 'netlify']
 image: { src: https://images.prismic.io/bareblends/6bf7d75a-05cb-4103-9688-d01914ff45cc_bare-mushies.jpg, alt: "mushrooms"}
 ---
 
-This site will be an ongoing digital journal of everything I find interesting in the universe. From my trials and tribulations of building <a href="https://bareblends.com.au">Bare Blends</a> with <a href="https://github.com/razza12">razza</a>, to my random programming adventures, to my strange obsession with SpaceX, to my thoughts on the meta of the world.
+This site will be an ongoing digital journal of everything I find interesting in the universe. From my trials and tribulations of building <a href="https://bareblends.com.au">Bare Blends</a> with <a href="https://github.com/razza12">razza</a>, to my random programming adventures, to my strange obsession with SpaceX, to my thoughts on the metaverse.
+
+One post a month.
 
 ## Starting with how this site is made...
 

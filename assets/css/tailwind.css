@@ -22,6 +22,7 @@ h3 {
 }
 
 
+
 @screen sm {
     h1{
         @apply text-3xl;

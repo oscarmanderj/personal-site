@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="mt-5 w-full mx-auto w-full sm:w-1/2">
-        <form action="/success" method="POST" data-netlify="true">
+        <form action="/pages/success" method="POST" data-netlify="true">
           <div class="shadow overflow-hidden sm:rounded-md">
             <div class="px-4 py-5 bg-white sm:p-6">
               <div class="flex flex-wrap">

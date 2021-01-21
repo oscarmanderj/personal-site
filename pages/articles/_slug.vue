@@ -1,6 +1,6 @@
 <template>
   <div
-    class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto prose-indigo my-8 sm:my-20 p-4"
+    class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto my-8 sm:my-20 p-4"
   >
     <img
       class="w-auto h-auto rounded-2xl shadow-md"

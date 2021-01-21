@@ -116,8 +116,7 @@ Tailwind typography is your answer to perfectly formatted blogs. Optimised for r
 
 # Netlify
 
-<a href="https://www.netlify.com/">Netlify</a>
-Netlify is the perfect hosting solution for static sites and it has been on a roll for a few years now. Forget managing servers and complicated environments, just connect and forget!
+<a href="https://www.netlify.com/">Netlify</a> is the perfect hosting solution for static sites and it has been on a roll for a few years now. Forget managing servers and complicated environments, just connect and forget!
 
 The first time I discovered Netlify, my developer life changed forever. I now host almost all my sites on it. And the best part is that it is free! Well, if you just want to do JAMStack sites that is. I am currently hosting about 12 sites saving $100's a year.
 

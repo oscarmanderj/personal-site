@@ -21,6 +21,12 @@ module.exports = {
       },
     },
   },
-  purge: ['./content/**/*.md', './pages/**/*.vue', './components/**/*.vue'],
+  purge: {
+    content: [
+      'content/articles/*.md',
+      './pages/**/*.vue',
+      './components/**/*.vue',
+    ],
+  },
   plugins: [require('@tailwindcss/typography')],
 }

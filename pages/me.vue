@@ -14,7 +14,7 @@
         <h3 class="text-gray-500 mt-8">What I do:</h3>
         <ul class="list-inside list-disc sm:text-xl my-2">
           <li>
-            Build
+            I Build
             <a class="text-green-600" href="https://bareblends.com.au"
               >Bare Blends</a
             >
